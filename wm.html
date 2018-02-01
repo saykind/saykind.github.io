@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wolfram Mathematica</title>
+	<style>
+		#p01 {
+			float: right;
+			margin-right:4em;		
+		}
+		a.file {
+			color: green;
+		}
+		a.file:visited {
+		    color: #551A8B;
+		}
+		ol {
+			counter-reset:li; /* Initiate a counter */
+			margin-left:0; /* Remove the default left margin */
+			padding-left:0; /* Remove the default left padding */
+		}
+		ol > li {
+			position:relative; /* Create a positioning context */
+			margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+			padding:0em 10px 10px; /* Add some spacing around the content */
+			list-style:none; /* Disable the normal item numbering */
+			border-top:2px solid rgba(0,30,180,.8);
+			background:#fff;
+		}
+		ol > li:before {
+			content:counter(li);
+			counter-increment:li;
+			position:absolute;
+			top:-2px;
+			left:-2em;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			box-sizing:border-box;
+			width:2em;
+			margin-right:8px;
+			padding:12px;
+			color:#fff;
+			background:rgba(0,30,180,.8);
+			font-weight:bold;
+			font-family:"Helvetica Neue", Arial, sans-serif;
+			text-align:center;
+		}
+		li ol,
+		li ul {margin-top:6px;}
+		ol ol li:last-child {margin-bottom:0;}
+		body {font-size:16px; margin:40px}
+	</style>
+</head>
+<body>
+	<p style="float: right;"><a href="./index.html">../</a><p>
+	<h1>Wolfram Mathematica</h1>
+	<h2>Lectures</h2>
+	<ol>
+		<li><p id="p01">Lecture_1.nb<br>Problem_set_1.nb</p> 
+		<h3>Introduction</h3>
+		Wolfram language basics. Working in Mathematica notebook. Operations with lists. Expression structure. Definition and application of functions.</li>
+		<li><p id="p01">Lecture_2.nb<br>Problem_set_2.nb</p> 
+		<h3>Patterns, replacements and conditions</h3>
+		Expression structure.</li>
+		<li><p id="p01">Lecture_3.nb<br>Problem_set_3.nb</p> 
+		<h3>Numerical computations</h3>
+		Numerical solutions of equations</li>
+		<li><p id="p01">Lecture_4.nb<br>Problem_set_4.nb</p> 
+		<h3>Visualization</h3>
+		Simple examples of plotting functions</li>
+		<li><p id="p01">Lecture_5.nb<br>Problem_set_5.nb</p> 
+		<h3>Eigenproblems</h3>
+		Working with matricies. Solving differential eigenproblem</li>
+	</ol>
+
+	<hr>
+
+	<h2>Additional materials</h2>
+	<ul>
+	  <li><i>Stephen Wolfram</i>,
+		<a href="https://www.wolfram.com/language/elementary-introduction/2nd-ed/">An Elementary introduction to the Wolfram Language</a></li>
+	  <li><i>C. Hastings, K. Mischo, M. Morrison</i>,
+		<a class="file" href="./pdf/wm/Cliff Hastings, Kelvin Mischo, Michael Morrison - Hands-On Start to Wolfram Mathematica (2016).pdf">Hands-On Start to Wolfram Mathematica: And Programming with the Wolfram Language</a></li>
+	</ul>
+</body>
+</html>
