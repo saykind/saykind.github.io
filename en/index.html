@@ -16,7 +16,7 @@
 	  }
 	  @media only screen and (min-device-width: 400px) {
 	    div.polaroid {
-		width: 17%; 
+		width: 20%; 
 		float: right;
 		background-color: white; 
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -24,6 +24,12 @@
 	    }
 	  }
 	  div.container {text-align: center; padding: 2px 10px;}
+	ul.c {
+		list-style-type: circle;
+	}
+	a.file {
+		color: green;
+	}
 	</style>
 </head>
 </html>
@@ -31,16 +37,24 @@
 	<p style="float: right;"><a href="../index.html">Русский</a><p>
 	<h1>David Saykin's homepage</h1>
 	<div class="polaroid">
-	  <img src="../images/china.jpg" alt="avatar" width="100%">
+	  <img src="../images/avatar.jpg" alt="avatar" width="100%">
 	  <div class="container">
-		<p style="font-size: 20px;"><i>That's me.</i></p>
+		  <a href="https://vk.com/saykind">
+			  <img src="../images/vk_logo.png" alt="vk" style="width:27%;border:0;"></a> 
+		  <a href="https://www.facebook.com/saykind">
+			  <img src="../images/fb_logo.png" alt="fb" style="width:27%;border:0;"></a>
+		  <a href="https://telegram.me/saykind">
+			  <img src="../images/tg_logo.png" alt="fb" style="width:27%;border:0;"></a>
 	  </div>
 	</div>
 	<h2>About</h2>
 	  General information about me is represented in <a href="../pdf/cv.pdf">curriculum vitae</a>.
-	<h2>List of Courses</h2>
-	<ul>
-	  <li><a href="./mm.html">Methods of Mathematical Physics</a></li>
-	  <li><a href="./qm.html">Quantum Mechanics</a></li>
-	</ul>
+	<h2>Publications</h2>
+	<ol>
+	  <li>D. R. Saykin, K. S. Tikhonov, and Ya. I. Rodionov<br>
+	      <i>Landau levels with magnetic tunneling in a Weyl semimetal and magnetoconductance of a ballistic p-n junction</i><br>
+	      <a href="https://link.aps.org/doi/10.1103/PhysRevB.97.041202">Phys. Rev. B 97, 041202(R) (2018)</a> 
+	      <a href="https://arxiv.org/abs/1711.00684">arXiv:1711.00684</a>
+	      [<a class="file" href="./pdf/PhysRevB.97.041202.pdf">PDF</a>]</li>
+	</ol>	
 </body>
