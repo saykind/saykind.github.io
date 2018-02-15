@@ -6,7 +6,7 @@
 	<style>
 		#p01 {
 			float: right;
-			margin-right:4em;		
+			text-align: right;		
 		}
 		a.file {
 			color: green;
@@ -15,7 +15,7 @@
 		    color: #551A8B;
 		}
 		ol {
-			counter-reset:li; /* Initiate a counter */
+			counter-reset:li -1; /* Initiate a counter */
 			margin-left:0; /* Remove the default left margin */
 			padding-left:0; /* Remove the default left padding */
 		}
@@ -56,22 +56,46 @@
 	<h1>Wolfram Mathematica</h1>
 	<h2>Lectures</h2>
 	<ol>
-		<li><p id="p01">Lecture_1.nb<br>Assignment_1.nb</p> 
-		<h3>Introduction</h3>
-		Wolfram language basics. Working in Mathematica notebook. Operations with lists. Expression structure. Definition and application of functions.</li>
-		<li><p id="p01">Lecture_2.nb<br>Assignment_2.nb</p> 
-		<h3>Patterns, replacements and conditions</h3>
-		Expression structure.</li>
-		<li><p id="p01">Lecture_3.nb<br>Assignment_3.nb</p> 
-		<h3>Numerical computations</h3>
-		Numerical solutions of equations</li>
-		<li><p id="p01">Lecture_4.nb<br>Assignment_4.nb</p> 
-		<h3>Visualization</h3>
-		Simple examples of plotting functions</li>
-		<li><p id="p01"><a class="file" href="./nb/lecture_5.nb">Lecture_5.nb</a><br>
-			<a class="file" href="./nb/assignment_5.pdf">Assignment_5.pdf</a></p> 
-		<h3>Eigenproblems</h3>
-		Working with matricies. Solving differential eigenproblem</li>
+		<li>	<p id="p01">
+				<a class="file" href="./nb/Lecture_0.nb">Lecture_0.nb</a>
+			</p> 
+			<h3>Introduction</h3>
+			Wolfram language basics. Working in Mathematica notebook. Expression structure. 
+			Definition and application of functions. Operations with lists.
+		</li>
+		<li>	<p id="p01">
+				<a class="file" href="./nb/Lecture_1.nb">Lecture_1.nb</a><br>
+				<a class="file" href="./pdf/wm/Assignment_1.pdf">Assignment_1.pdf</a></p> 
+			<h3>Patterns and Replacements</h3>
+			Expression structure. Deep understanding of Replacements. Usage of patterns and Conditions.
+		</li>
+		<li>	<p id="p01">
+				Lecture_2.nb<br>
+				<a class="file" href="./pdf/wm/Assignment_2.pdf">Assignment_2.pdf</a></p> 
+			<h3>Numerical Computations</h3>
+			Solutions of equations using Solve and Reduce. Numerical solutions via NSolve and FindRoot. 
+			Solutions of (partial) diffrential equations via DSolve and NDSolve.
+		</li>
+		<li>	<p id="p01">
+				Lecture_3.nb<br>
+				<a class="file" href="./pdf/wm/Assignment_3.pdf">Assignment_3.pdf</a></p> 
+			<h3>Visualization</h3>
+			Simple examples of visualizations. Functions Plot, Show, ListPlot, ContourPlot, Plot3D, Manipulate.</li>
+		<li>	<p id="p01">
+				<a class="file" href="./nb/Lecture_4.nb">Lecture_4.nb</a><br>
+				<a class="file" href="./pdf/wm/Assignment_4.pdf">Assignment_4.pdf</a>
+			</p> 
+			<h3>Eigenproblems</h3>
+			Working with matricies. Symbolic and numerical solutions of eigenproblem. 
+			Solving differential eigenproblem (Stuem-Liouville problem) using different numerical approaches: 
+			shooting method and finite-matrix representation
+		</li>
+		<li>	<p id="p01">
+				<a class="file" href="./pdf/wm/Assignment_X.pdf">Assignment_X.pdf</a>
+			</p>
+			<h3>Applications in Theoretical Physics</h3>
+			"Real life" problems from Theoretical Physics.
+	
 	</ol>
 
 	<hr>
