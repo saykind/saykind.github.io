@@ -3,13 +3,21 @@
 <head>
 	<meta name="keywords" 	content="Mathematical methods, Theoretical physics, Course, Problems, Solutions, MIPT">
 	<meta name="author" 	content="David Saykin">
-	<meta name="viewport" 	content="width=device-width, min-width=450px,  initial-scale=1.0">
+	<meta id="vp" name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+	window.onload = function() {
+	    if (screen.width < 500) {
+		var mvp = document.getElementById('vp');
+		mvp.setAttribute('content','user-scalable=no,width=450');
+	    }
+	}
+	</script>
 	<title>Избранные главы математической физики</title>
 	<style>
 		body {
 			font-size:16px; 
 			margin:2%;
-			min-width:450px;
+			min-width:500px;
 		}
 		a.file {
 			color: green;
