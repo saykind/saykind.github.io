@@ -1,101 +1,156 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" 	content="Wolfram, Mathematica, Course, Skoltech">
+	<meta name="author" 	content="David Saykin">
+	<meta name="viewport" 	content="width=device-width, initial-scale=1.0">
 	<title>Wolfram Mathematica</title>
 	<style>
-		#p01 {
-			float: right;
-			text-align: right;		
+		* {    
+			box-sizing: border-box;
+		}
+		body {
+			font-size:16px; 
+			margin:2%;
 		}
 		a.file {
 			color: green;
 		}
 		a.file:visited {
-		    color: #551A8B;
+			color: #551A8B;
+		}
+		h3{
+			padding: 0px;
+			margin: 0px 0 0 0;
+		}
+		p{
+			padding: 0px;
+			margin: 2em 0 0 10px;
+		}
+		p.home{
+			float: right;
+			padding: 10px;
+			margin: 10px;
 		}
 		ol {
 			counter-reset:li -1; /* Initiate a counter */
-			margin-left:0; /* Remove the default left margin */
-			padding-left:0; /* Remove the default left padding */
-		}
-		ol > li {
-			position:relative; /* Create a positioning context */
-			margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
-			padding:0em 10px 10px; /* Add some spacing around the content */
-			list-style:none; /* Disable the normal item numbering */
-			border-top:2px solid rgba(0,30,180,.8);
-			background:#fff;
+			margin-left:0;
+			padding-left:0;
 		}
 		ol > li:before {
-			content:counter(li);
-			counter-increment:li;
 			position:absolute;
-			top:-2px;
+			top:-3px;
 			left:-2em;
-			-moz-box-sizing:border-box;
-			-webkit-box-sizing:border-box;
 			box-sizing:border-box;
 			width:2em;
-			margin-right:8px;
-			padding:12px;
+			padding:15px 0 15px 0;
 			color:#fff;
 			background:rgba(0,30,180,.8);
 			font-weight:bold;
-			font-family:"Helvetica Neue", Arial, sans-serif;
+			font-family:"Helvetica Neue", Arial;
 			text-align:center;
+			content:counter(li);
+			counter-increment:li;
 		}
-		li ol,
-		li ul {margin-top:6px;}
-		ol ol li:last-child {margin-bottom:0;}
-		body {font-size:16px; margin:40px}
+		ol > li {
+			position:relative; 		/* Create a positioning context */
+			margin:0em 0 2em 2em; 		/* Give each list item a left margin to make room for the numbers */
+			padding:0em 2px 00px; 		/* Add some spacing around the content */
+			list-style:none; 		/* Disable the normal item numbering */
+			border-top:3px solid rgba(0,30,180,.8);
+			background:#fff;
+		}
+		.col-75 {width: 75%; height: 60px;	float: left; 	padding: 10px;}
+		.col-25 {width: 25%; height: 60px;	float: right;	padding: 10px;}
+	/* For mobile phones */
+	@media only screen and (max-width: 640px) {
+		[class*="col-"] {width: 100%; height: auto;}
+		body {
+			font-size:14px; 
+		}
+		<meta name="viewport" content="width=500px, initial-scale=1.0">
+	}
 	</style>
 </head>
 <body>
-	<p style="float: right;"><a href="./index.html">../</a><p>
+	<p class="home"><a href="./index.html">../</a><p>
 	<h1>Wolfram Mathematica</h1>
 	<h2>Lectures</h2>
 	<ol>
-		<li>	<p id="p01">
+		<li>	
+			<div class="col-75">
+				<h3>Introduction</h3>
+			</div>
+			<div class="col-25">
 				<a class="file" href="./nb/Lecture_0.nb">Lecture_0.nb</a>
-			</p> 
-			<h3>Introduction</h3>
-			Wolfram language basics. Working in Mathematica notebook. Expression structure. 
-			Definition and application of functions. Operations with lists.
+			</div> 
+			<p>
+				Wolfram language basics. Working in Mathematica notebook. Expression structure. 
+				Definition and application of functions. Operations with lists.
+			</p>
 		</li>
-		<li>	<p id="p01">
+		<li>
+			<div class="col-75">
+				<h3>Patterns and Replacements</h3>
+			</div>
+			<div class="col-25">
 				<a class="file" href="./nb/Lecture_1.nb">Lecture_1.nb</a><br>
-				<a class="file" href="./pdf/wm/Assignment_1.pdf">Assignment_1.pdf</a></p> 
-			<h3>Patterns and Replacements</h3>
-			Expression structure. Deep understanding of Replacements. Usage of patterns and Conditions.
+				<a class="file" href="./pdf/wm/Assignment_1.pdf">Assignment_1.pdf</a> 
+			</div>
+			<p>	
+				Expression structure. Deep understanding of Replacements. Usage of patterns and Conditions.
+			</p>		
 		</li>
-		<li>	<p id="p01">
+		<li>	
+			<div class="col-75">
+				<h3>Numerical Computations</h3>
+			</div>
+			<div class="col-25">
 				Lecture_2.nb<br>
-				<a class="file" href="./pdf/wm/Assignment_2.pdf">Assignment_2.pdf</a></p> 
-			<h3>Numerical Computations</h3>
-			Solutions of equations using Solve and Reduce. Numerical solutions via NSolve and FindRoot. 
-			Solutions of (partial) diffrential equations via DSolve and NDSolve.
+				<a class="file" href="./pdf/wm/Assignment_2.pdf">Assignment_2.pdf</a>
+			</div>
+			<p>
+				Solutions of equations using Solve and Reduce. Numerical solutions via NSolve and FindRoot. 
+				Solutions of (partial) diffrential equations via DSolve and NDSolve.
+			</p>
 		</li>
-		<li>	<p id="p01">
+		<li>	
+			<div class="col-75">
+				<h3>Visualization</h3>
+			</div>
+			<div class="col-25">
 				Lecture_3.nb<br>
-				<a class="file" href="./pdf/wm/Assignment_3.pdf">Assignment_3.pdf</a></p> 
-			<h3>Visualization</h3>
-			Simple examples of visualizations. Functions Plot, Show, ListPlot, ContourPlot, Plot3D, Manipulate.</li>
-		<li>	<p id="p01">
+				<a class="file" href="./pdf/wm/Assignment_3.pdf">Assignment_3.pdf</a>
+			</div>
+			<p>
+				Simple examples of visualizations. Functions Plot, Show, ListPlot, ContourPlot, Plot3D, Manipulate.
+			</p>
+		</li>
+		<li>	
+			<div class="col-75">
+				<h3>Eigenproblems</h3>
+			</div>
+			<div class="col-25">
 				<a class="file" href="./nb/Lecture_4.nb">Lecture_4.nb</a><br>
 				<a class="file" href="./pdf/wm/Assignment_4.pdf">Assignment_4.pdf</a>
-			</p> 
-			<h3>Eigenproblems</h3>
-			Working with matricies. Symbolic and numerical solutions of eigenproblem. 
-			Solving differential eigenproblem (Stuem-Liouville problem) using different numerical approaches: 
-			shooting method and finite-matrix representation
-		</li>
-		<li>	<p id="p01">
-				<a class="file" href="./pdf/wm/Assignment_X.pdf">Assignment_X.pdf</a>
+			</div>
+			<p>
+				Working with matricies. Symbolic and numerical solutions of eigenproblem. 
+				Solving differential eigenproblem (Stuem-Liouville problem) using different numerical approaches: 
+				shooting method and finite-matrix representation
 			</p>
-			<h3>Applications in Theoretical Physics</h3>
-			"Real life" problems from Theoretical Physics.
-	
+		</li>
+		<li>	
+			<div class="col-75">
+				<h3>Applications in Theoretical Physics</h3>
+			</div>
+			<div class="col-25">
+				<a class="file" href="./pdf/wm/Assignment_X.pdf">Assignment_X.pdf</a>
+			</div>
+			<p>
+				"Real life" problems from Theoretical Physics.
+			</p>
+		</li>	
 	</ol>
 
 	<hr>

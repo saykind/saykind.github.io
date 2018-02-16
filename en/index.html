@@ -4,33 +4,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>David Saykin</title>
 	<style>
-	  body {font-size: 16px; margin:40px}
-	  *{box-sizing: border-box;}
-	  div.polaroid {
-		width: 70%; 
-		background-color: white; 
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 30px; 
-	  }
-	  @media only screen and (min-device-width: 400px) {
-	    div.polaroid {
-		width: 20%; 
-		float: right;
-		background-color: white; 
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		margin-bottom: 30px; 
-	    }
-	  }
-	  div.container {text-align: center; padding: 2px 10px;}
+	body {
+		font-size: 16px; 
+		margin:2%
+	}
 	ul.c {
 		list-style-type: circle;
 	}
 	a.file {
 		color: green;
 	}
+	*{box-sizing: border-box;}
+	div.polaroid {
+		width: 20%; 
+		float: right;
+		background-color: white; 
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px; 
+	}
+	div.container {
+		text-align: center; 
+		padding: 2px 10px;
+	}
+	/* For mobile phones */
+	@media only screen and (max-width: 400px) {
+		div.polaroid {
+			width: 60%; 
+			float: none; 
+		}
+		body {
+			font-size:14px; 
+		}	
+		<meta name="viewport" content="width=500px, initial-scale=1.0">
+	}
 	</style>
+
 </head>
 </html>
 <body>
@@ -49,6 +59,10 @@
 	</div>
 	<h2>About</h2>
 	  General information about me is represented in <a href="../pdf/cv.pdf">curriculum vitae</a>.
+	<h2>Courses</h2>
+	<ul>
+	  <li><a href="../wm.html">Wolfram Mathematica</a></li>
+	</ul>
 	<h2>Publications</h2>
 	<ol>
 	  <li>D. R. Saykin, K. S. Tikhonov, and Ya. I. Rodionov<br>
