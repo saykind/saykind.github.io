@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Давид Сайкин</title>
+	<style>
+	body {
+		font-size: 16px; 
+		margin:2%
+	}
+	ul.c {
+		list-style-type: circle;
+	}
+	a.file {
+		color: green;
+	}
+	*{box-sizing: border-box;}
+	div.polaroid {
+		width: 20%; 
+		float: right;
+		background-color: white; 
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px; 
+	}
+	div.container {
+		text-align: center; 
+		padding: 2px 10px;
+	}
+	/* For mobile phones */
+	@media only screen and (max-width: 800px) {
+		div.polaroid {
+			width: 30%;
+		}
+	}
+	@media only screen and (max-width: 400px) {
+		div.polaroid {
+			width: 60%; 
+			float: none; 
+		}
+		body {
+			font-size:14px; 
+		}
+	}
+	</style>
+</head>
+</html>
+<body>
+	<p style="float: right;"><a href="./en/index.html">EN</a><p>
+	<h1>Домашняя страница Давида Сайкина</h1>
+	<div class="polaroid">
+	  <img src="./images/avatar.jpg" alt="avatar" width="100%">
+	  <div class="container">
+		  <a href="https://vk.com/saykind">
+			  <img src="./images/vk_logo.png" alt="vk" style="width:27%;border:0;"></a> 
+		  <a href="https://www.facebook.com/saykind">
+			  <img src="./images/fb_logo.png" alt="fb" style="width:27%;border:0;"></a>
+		  <a href="https://telegram.me/saykind">
+			  <img src="./images/tg_logo.png" alt="fb" style="width:27%;border:0;"></a>
+	  </div>
+	</div>
+	<p>
+	  Добро пожаловать на мою личную страницу.</br>
+	  Основную информацию обо мне можно найти в <a href="./pdf/cv.pdf">curriculum vitae</a>.
+	</p>
+	<h2>Список курсов</h2>
+	<ul>
+	  <li><a href="./mm.html">Избранные главы математической физики</a></li>
+	  <li><a href="./wm.html">Wolfram Mathematica</a></li>
+	  <!--<li><a href="./qm.html">Квантовая Механика</a></li>
+	  <li><a href="./tp.html">Избранные Главы Теоретической Физики</a></li>
+	  <li><a href="./sc.html">Сверхпроводимость</a></li>-->
+	</ul>
+	<h2>Научные работы</h2>
+	<h3>Публикации</h3>
+	<ol>
+	  <li>D. R. Saykin, K. S. Tikhonov, and Ya. I. Rodionov<br>
+	      <i>Landau levels with magnetic tunneling in a Weyl semimetal and magnetoconductance of a ballistic p-n junction</i><br>
+	      <a href="https://link.aps.org/doi/10.1103/PhysRevB.97.041202">Phys. Rev. B 97, 041202(R) (2018)</a> 
+	      <a href="https://arxiv.org/abs/1711.00684">arXiv:1711.00684</a>
+	      [<a class="file" href="./pdf/PhysRevB.97.041202.pdf">PDF</a>]</li>
+	</ol>	
+	<h3>Неопубликованые рукописи</h3>
+	<ul class="c">
+	<li>Диплом Бакалавра (МФТИ, 2017). Научный руководитель: <a href="https://itp.ac.ru/ru/persons/tikhonov-konstantin-sergeevich/">Тихонов К.С.</a><br>
+	  Тема: "<i>Магнетосопротивление p-n перехода в Вейлевком полуметалле</i>" [<a class="file" href="./pdf/thesis.pdf">PDF</a>]</li>
+	</ul>
+</body>

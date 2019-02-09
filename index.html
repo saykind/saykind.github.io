@@ -1,89 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Давид Сайкин</title>
+	<meta name="keywords" 	content="Mathematical methods, Theoretical physics, Course, Problems, Solutions, MIPT">
+	<meta name="author" 	content="David Saykin">
+	<meta id="vp" name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+	window.onload = function() {
+	    if (screen.width < 500) {
+		var mvp = document.getElementById('vp');
+		mvp.setAttribute('content','width=520');
+	    }
+	}
+	</script>
+	<title>Избранные главы математической физики</title>
 	<style>
-	body {
-		font-size: 16px; 
-		margin:2%
-	}
-	ul.c {
-		list-style-type: circle;
-	}
-	a.file {
-		color: green;
-	}
-	*{box-sizing: border-box;}
-	div.polaroid {
-		width: 20%; 
-		float: right;
-		background-color: white; 
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 30px; 
-	}
-	div.container {
-		text-align: center; 
-		padding: 2px 10px;
-	}
-	/* For mobile phones */
-	@media only screen and (max-width: 800px) {
-		div.polaroid {
-			width: 30%;
-		}
-	}
-	@media only screen and (max-width: 400px) {
-		div.polaroid {
-			width: 60%; 
-			float: none; 
-		}
 		body {
-			font-size:14px; 
+			font-size:16px; 
+			margin:2%;
+			min-width:500px;
 		}
-	}
+		a.file {
+			color: green;
+		}
+		a.file:visited {
+			color: #551A8B;
+		}
+		table {
+			border-collapse: collapse; 
+			width: 100%;
+		}
+		th, td {
+			padding: 8px; 
+			text-align: left; 
+			border-bottom: 1px solid #ddd;
+		}
+		tr:nth-child(even) {
+			background-color: #f5f5f5;
+		}
+		tr:hover {
+			background-color:#ddd;
+		}
+		th {
+			background-color: rgba(0,30,180,.8); 
+			font-size:18px; 
+			color: white;
+		}
+		.red {
+			border: 2px solid red;
+			width: 50%;
+			margin:2em 25% 2em 25%;
+			padding:1em ;
+			font-size:24px;
+			text-align: center;
+			color: red;
+		}
 	</style>
 </head>
-</html>
 <body>
-	<p style="float: right;"><a href="./en/index.html">EN</a><p>
-	<h1>Домашняя страница Давида Сайкина</h1>
-	<div class="polaroid">
-	  <img src="./images/avatar.jpg" alt="avatar" width="100%">
-	  <div class="container">
-		  <a href="https://vk.com/saykind">
-			  <img src="./images/vk_logo.png" alt="vk" style="width:27%;border:0;"></a> 
-		  <a href="https://www.facebook.com/saykind">
-			  <img src="./images/fb_logo.png" alt="fb" style="width:27%;border:0;"></a>
-		  <a href="https://telegram.me/saykind">
-			  <img src="./images/tg_logo.png" alt="fb" style="width:27%;border:0;"></a>
-	  </div>
-	</div>
-	<p>
-	  Добро пожаловать на мою личную страницу.</br>
-	  Основную информацию обо мне можно найти в <a href="./pdf/cv.pdf">curriculum vitae</a>.
-	</p>
-	<h2>Список курсов</h2>
+	<p style="float: right;"><a href="./index.html">../</a><p>
+	<h1>Избранные главы математической физики</h1>
+	<a href="https://docs.google.com/spreadsheets/d/1kmeD0dIdEnlfuwsnuniwjfqSjDKY3VtCdRU3f18-YJA/edit?usp=sharing">Таблица с результатами</a>. 
+	Оценки выставляются согласно <a href="./pdf/mm/grading.pdf">правилам</a>.</p>
+	<h2>Материалы семинарских занятий</h2>
+	<table>
+	<tr>
+	  <th>Тема семинара</th>
+	  <th>Конспект</th>
+	  <th>Задание</th>
+	  <th>Дополнительно</th>
+	</tr>
+	<tr>
+	  <td>Гамма-функция Эйлера</td>
+	  <td>	<a class="file" href="./pdf/mm/lecture_gamma.pdf">PDF</a>
+	 </td>
+	  <td>	<a class="file" href="./assignments/assignment_1.pdf">PDF</a>
+	 </td>
+	  <td>	<a class="file" href="./pdf/mm/mathlec5.pdf"><i>Лебедев</i></a>, Секция 8</br>
+		<a class="file" href="./pdf/mm/watson2.djvu"><i>Paris</i></a>, Секция 2.1</br>
+		<a class="file" href="./pdf/mm/watson2.djvu"><i>Ватсон</i></a>, Глава 12</br>
+	 </td>
+	</tr>
+	</table>
+	
+	<p>Имейте в виду, что мои тексты содержат опечатки и ошибки. Скачивайте последнюю версию задания перед решением.</p>
+
+	<h2>Учебники</h2>
 	<ul>
-	  <li><a href="./mm.html">Избранные главы математической физики</a></li>
-	  <li><a href="./wm.html">Wolfram Mathematica</a></li>
-	  <!--<li><a href="./qm.html">Квантовая Механика</a></li>
-	  <li><a href="./tp.html">Избранные Главы Теоретической Физики</a></li>
-	  <li><a href="./sc.html">Сверхпроводимость</a></li>-->
+	  <li><i>Лебедев В.В., Колоколов И.В.</i>, Избранные главы математической физики 
+		[<a class="file" href="./pdf/mm/mathlec5.pdf">PDF</a>]</li>
+	  <li><i>Колоколов И.В.</i>, Задачи по методам математической физики
+		[<a class="file" href="./pdf/mm/kolokolov.pdf">PDF</a>]</li>
+	  <li><i>Шапиро Д.А.</i>, Конспект лекций по методам математической физики
+		[<a class="file" href="./pdf/mm/shapiro1.pdf">часть 1</a>, 
+		 <a class="file" href="./pdf/mm/shapiro2.pdf">часть 2</a>, 
+		 <a class="file" href="./pdf/mm/shapiro3.pdf">часть 3</a>]</li>
+	  <li><i>Олвер Ф.</i>, Введение в асимптотические методы и специальные функции
+		[<a class="file" href="./pdf/mm/olver.djvu">DJVU</a>]</li>
 	</ul>
-	<h2>Научные работы</h2>
-	<h3>Публикации</h3>
-	<ol>
-	  <li>D. R. Saykin, K. S. Tikhonov, and Ya. I. Rodionov<br>
-	      <i>Landau levels with magnetic tunneling in a Weyl semimetal and magnetoconductance of a ballistic p-n junction</i><br>
-	      <a href="https://link.aps.org/doi/10.1103/PhysRevB.97.041202">Phys. Rev. B 97, 041202(R) (2018)</a> 
-	      <a href="https://arxiv.org/abs/1711.00684">arXiv:1711.00684</a>
-	      [<a class="file" href="./pdf/PhysRevB.97.041202.pdf">PDF</a>]</li>
-	</ol>	
-	<h3>Неопубликованые рукописи</h3>
-	<ul class="c">
-	<li>Диплом Бакалавра (МФТИ, 2017). Научный руководитель: <a href="https://itp.ac.ru/ru/persons/tikhonov-konstantin-sergeevich/">Тихонов К.С.</a><br>
-	  Тема: "<i>Магнетосопротивление p-n перехода в Вейлевком полуметалле</i>" [<a class="file" href="./pdf/thesis.pdf">PDF</a>]</li>
+
+	<hr>
+
+	<h2>Дополнительные материалы</h2>
+	<h3>Учебники, курсы лекций, статьи</h3>
+	<ul>
+		<li><i>C. Bender</i>, Advanced Mathematical Methods for Scientists and Engineers I 
+			[<a class="file" href="./pdf/mm/bender.djvu">DJVU</a>]</li>
+		<li><i>R. Paris</i>, Asymptotics and Mellin-Barnes Integrals
+			[<a class="file" href="./pdf/mm/paris.pdf">PDF</a>]</li>
+		<li><i>Э.Уиттекр, Дж. Ватсон</i>, Курс Современного Анализа 	
+			[<a class="file" href="./pdf/mm/watson1.djvu">Том I</a>, 
+			 <a class="file" href="./pdf/mm/watson2.djvu">Том II</a>]</li>
+		<li><i>J. Boyd</i>, The Devil’s Invention: Asymptotic, Superasymptotic and Hyperasymptotic Series
+			[<a class="file" href="./pdf/mm/boyd.pdf">PDF</a>]</li>
+		<li><i>J. Watson</i>, Theory of Bessel functions
+			[<a class="file" href="./pdf/mm/watson.djvu">DJVU</a>]</li>
 	</ul>
+	<h3>Видеолекции</h3>
+	<ul>
+		<li><i>C. Bender</i>, Series of videolectures in Mathematical Physics @ 
+			<a href="https://www.perimeterinstitute.ca/video-library/collection/11/12-psi-mathematical-physics">Perimeter Institute</a>
+	       		[<a href="https://www.youtube.com/playlist?list=PL_LAJKOptm3ZWZHVNr8FmMzsWgb989ltu">youtube</a>]</li>
+		<li><i>D. Zagier</i>, Seminar on Asymptotics @ 
+			<a href="https://www.ictp.it/about-ictp/media-centre/videos/math-seminars/bns-asymptotics.aspx">ICTP</a>
+			[<a href="https://www.youtube.com/watch?v=q8MGPjoyC9U&list=PLoKeW_z06OKLzLKHwo75_aydHZUy1089K&index=17">youtube</a>]</li>
+	<ul>
 </body>
+</html>
