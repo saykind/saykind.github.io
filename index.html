@@ -54,11 +54,38 @@
 			text-align: center;
 			color: red;
 		}
+		.alert {
+		  padding: 20px;
+		  font-size:28px;
+		  background-color: #f44336;
+		  color: white;
+		  text-align: center;
+		}
+
+		.closebtn {
+		  margin-left: 15px;
+		  color: white;
+		  font-weight: bold;
+		  float: right;
+		  font-size: 30px;
+		  line-height: 20px;
+		  cursor: pointer;
+		  transition: 0.3s;
+		}
+
+		.closebtn:hover {
+		  color: black;
+		}
 	</style>
 </head>
 <body>
 	<p style="float: right;"><a href="./index.html">../</a><p>
 	<h1>Избранные главы математической физики</h1>
+	<div class="alert">
+	  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+	  <strong>Внимание!</strong> 23 февраля занятие не состояится.</br> Самостоятельно ботайте тему "Метод перевала".
+	</div>
+	</br>
 	<a href="https://docs.google.com/spreadsheets/d/1kmeD0dIdEnlfuwsnuniwjfqSjDKY3VtCdRU3f18-YJA/edit?usp=sharing">Таблица с результатами</a>. 
 	Оценки выставляются согласно <a href="./pdf/mm/grading.pdf">правилам</a>.</p>
 	<h2>Материалы семинарских занятий</h2>
