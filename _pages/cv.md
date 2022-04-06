@@ -11,49 +11,81 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Physics, Stanford University, 2025 (expected)
+* M.S. in Theoretical Physics, Skoltech, 2019
+* B.S. in Physics and Applied Mathematics, MIPT, 2017
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019-present: Research Assistant
+  * Geballe Laboratory for Advanced Materials, Stanford University
+  * Supervisor: Aharon Kapitulnik
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2017-2019: Research Assistant
+  * Landau Institute of Theoretical Physics
+  * Supervisor: Igor S. Burmistrov
+
+* 2019: Research Intern
+  * Karlsruhe Institute of Technology
+  * Supervisor: Alexander Mirlin
+
+* 2018-2019: Teaching Assistant
+  * Chair of physics and technology of nanostructures, MIPT
+  * Supervisor: Vladimir V. Lebedev
+
+* 2018-2019: Laboratory Assistant
+  * Laboratory of Applied Computational Geophysics, MIPT
+  * Supervisor: Vasily I. Golubev
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Qunatum Engineering
+  * Cryogenics
+  * Low-noise transport measuremenets
+  * Free-standing and fiber-coupled optics
+  * Low-temperature thermometry
+  * Photolithography
+  * Chemical Vapor Deposition
+  * Machining (lathe, mill)
+  * Laboratory electronics
+  * Data acquisition and analysis
+  * Design, development and debugging of experimental setups
+* Condensed--matter and Solid State Theory
+  * Superconductivity
+  * Quantum Transport
+  * 2D materials
+  * Quantum Field Theory methods
+* Programming/Computer Science
+  * Python (NumPy, SciPy, Pandas, TensorFlow)
+  * C/C++ 
+  * Matlab
+  * Wolfram Mathematica
+  * Git, SVN
+  * HTML, CSS
+  * GNU/Linux shell
+  * Parallel computing (Cuda, OMP, MPI)
+  * Machine Learning
+  * Monte Carlo simulations
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Leadership
 ======
-* Currently signed in to 43 different slack teams
+* 2021-2022: President
+  * Russian-speaking Student Association, Stanford University
