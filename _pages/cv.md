@@ -40,9 +40,9 @@ Work experience
 Skills
 ======
 * Qunatum Engineering
-  * Cryogenics
   * Low-noise transport measuremenets
   * Free-standing and fiber-coupled optics
+  * Cryogenics
   * Low-temperature thermometry
   * Photolithography
   * Chemical Vapor Deposition
