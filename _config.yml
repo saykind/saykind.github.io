@@ -223,7 +223,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: publication_layout
+      layout: splash
       author_profile: true
       share: true
       comments: true
