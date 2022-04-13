@@ -1,13 +1,15 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Curriculum Vitae"
+permalink: /files/cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
+
+[Download PDF version](DavidSaykinCV.pdf)
 
 Education
 ======
