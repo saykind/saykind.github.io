@@ -13,4 +13,4 @@ Time-reversal symmetry breaking (TRSB) in UTe2 was inferred from observations of
 
 [Download PDF](https://saykind.github.io/papers/PhysRevB.105.024521.pdf)
 
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![Preview](/images/papers/2022-01-26-Interplay-between-magnetism-and-superconductivity-in-UTe2.jpg)

@@ -13,4 +13,4 @@ Transport and elastic properties of freestanding two-dimensional materials are d
 
 [Download PDF](https://saykind.github.io/papers/PhysRevResearch.2.043099.pdf)
 
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![Preview](/images/papers/2020-10-19-Phase-diagram-of-a-flexible-two-dimensional-material.png)

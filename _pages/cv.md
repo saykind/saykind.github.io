@@ -22,6 +22,10 @@ Work experience
 * 2019-present: Research Assistant
   * Geballe Laboratory for Advanced Materials, Stanford University
   * Supervisor: Aharon Kapitulnik
+  
+* 2022: Quantum engineer intern
+  * Bleximo Corp.
+  * Supervisors: Chiara Pelletti and Xiaoyue Jin
 
 * 2017-2019: Research Assistant
   * Landau Institute of Theoretical Physics

@@ -13,4 +13,4 @@ We compute the absolute Poisson’s ratio and the bending rigidity exponent of a
 
 [Download PDF](https://saykind.github.io/papers/1-s2.0-S0003491620300415-main.pdf)
 
-![Preview](/images/papers/1-s2.0-S0003491620300415-gr3_lrg.jpg)
+![Preview](/images/papers/2020-03-01-Absolute-Poisson-ratio-and-the-bending-rigidity-exponent-of-a-crystalline-two-dimensional-membrane.jpg)
