@@ -31,8 +31,13 @@
     </h2>
 
     {% if post.venue and post.paperurl and post.date and post.paperpdf %}
-      <p>Published in <a href=" {{ post.paperurl }} "><i>{{ post.venue }}</i></a>, 
-      {{ post.date | date: "%B %d, %Y" }} [<a herf=" {{ post.paperurl }} "> PDF</a>] </p>
+      <p>Published in 
+        <a href=" {{ post.paperurl }} ">
+          <i>{{ post.venue }}</i>
+        </a>, 
+        {{ post.date | date: "%B %d, %Y" }} 
+        <a herf=" {{ post.paperurl }} ">PDF</a>
+      </p>
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

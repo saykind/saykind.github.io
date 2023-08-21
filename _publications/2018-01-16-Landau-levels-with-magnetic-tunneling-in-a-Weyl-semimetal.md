@@ -13,4 +13,4 @@ We study the Landau levels (LLs) of a Weyl semimetal with two adjacent Weyl node
 
 [<a herf=" {{ page.paperpdf }} ">Download PDF</a>]
 
-![Teaser](/images/papers/2018-01-16-Landau-levels-with-magnetic-tunneling-in-a-Weyl-semimetal.png)
+![Preview](/images/papers/2018-01-16-Landau-levels-with-magnetic-tunneling-in-a-Weyl-semimetal.png)
