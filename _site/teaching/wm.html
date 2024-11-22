@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="keywords" 	content="Wolfram, Mathematica, Course, Skoltech">
+	<meta name="author" 	content="David Saykin">
+	<meta name="viewport" 	content="width=device-width, initial-scale=1.0">
+	<title>Wolfram Mathematica</title>
+	<style>
+		* {    
+			box-sizing: border-box;
+		}
+		body {
+			font-size:16px; 
+			margin:2%;
+		}
+		a.file {
+			color: green;
+		}
+		a.file:visited {
+			color: #551A8B;
+		}
+		h3{
+			padding: 0px;
+			margin: 0px 0 0 0;
+		}
+		p{
+			padding: 0px;
+			margin: 2em 0 0 10px;
+		}
+		p.home{
+			float: right;
+			padding: 10px;
+			margin: 10px;
+		}
+		ol {
+			counter-reset:li -1; /* Initiate a counter */
+			margin-left:0;
+			padding-left:0;
+		}
+		ol > li:before {
+			position:absolute;
+			top:-3px;
+			left:-2em;
+			box-sizing:border-box;
+			width:2em;
+			padding:15px 0 15px 0;
+			color:#fff;
+			background:rgba(0,30,180,.8);
+			font-weight:bold;
+			font-family:"Helvetica Neue", Arial;
+			text-align:center;
+			content:counter(li);
+			counter-increment:li;
+		}
+		ol > li {
+			position:relative; 		/* Create a positioning context */
+			margin:0em 0 2em 2em; 		/* Give each list item a left margin to make room for the numbers */
+			padding:0em 2px 00px; 		/* Add some spacing around the content */
+			list-style:none; 		/* Disable the normal item numbering */
+			border-top:3px solid rgba(0,30,180,.8);
+			background:#fff;
+		}
+		.col-75 {width: 75%; height: 60px;	float: left; 	padding: 10px;}
+		.col-25 {width: 25%; height: 60px;	float: right;	padding: 10px;}
+	/* For mobile phones */
+	@media only screen and (max-width: 600px) {
+		[class*="col-"] {width: 100%; height: auto;}
+		body {
+			font-size:14px; 
+		}
+	}
+	</style>
+</head>
+<body>
+	<p class="home"><a href="./index.html">../</a><p>
+	<h1>Wolfram Mathematica</h1>
+	<h2>Lectures</h2>
+	<ol>
+		<li>	
+			<div class="col-75">
+				<h3>Introduction</h3>
+			</div>
+			<div class="col-25">
+				<a class="file" href="./nb/Lecture_0.nb">Lecture_0.nb</a>
+			</div> 
+			<p>
+				Wolfram language basics. Working in Mathematica notebook. Expression structure. 
+				Definition and application of functions. Operations with lists.
+			</p>
+		</li>
+		<li>
+			<div class="col-75">
+				<h3>Patterns and Replacements</h3>
+			</div>
+			<div class="col-25">
+				<a class="file" href="./nb/Lecture_1.nb">Lecture_1.nb</a><br>
+				<a class="file" href="./pdf/wm/Assignment_1.pdf">Assignment_1.pdf</a> 
+			</div>
+			<p>	
+				Expression structure. Deep understanding of Replacements. Usage of patterns and Conditions.
+			</p>		
+		</li>
+		<li>	
+			<div class="col-75">
+				<h3>Numerical Computations</h3>
+			</div>
+			<div class="col-25">
+				Lecture_2.nb<br>
+				<a class="file" href="./pdf/wm/Assignment_2.pdf">Assignment_2.pdf</a>
+			</div>
+			<p>
+				Solutions of equations using Solve and Reduce. Numerical solutions via NSolve and FindRoot. 
+				Solutions of (partial) diffrential equations via DSolve and NDSolve.
+			</p>
+		</li>
+		<li>	
+			<div class="col-75">
+				<h3>Visualization</h3>
+			</div>
+			<div class="col-25">
+				Lecture_3.nb<br>
+				<a class="file" href="./pdf/wm/Assignment_3.pdf">Assignment_3.pdf</a>
+			</div>
+			<p>
+				Simple examples of visualizations. Functions Plot, Show, ListPlot, ContourPlot, Plot3D, Manipulate.
+			</p>
+		</li>
+		<li>	
+			<div class="col-75">
+				<h3>Eigenproblems</h3>
+			</div>
+			<div class="col-25">
+				<a class="file" href="./nb/Lecture_4.nb">Lecture_4.nb</a><br>
+				<a class="file" href="./pdf/wm/Assignment_4.pdf">Assignment_4.pdf</a>
+			</div>
+			<p>
+				Working with matricies. Symbolic and numerical solutions of eigenproblem. 
+				Solving differential eigenproblem (Sturm-Liouville problem) using different numerical approaches: 
+				shooting method and finite-matrix representation
+			</p>
+		</li>
+		<li>	
+			<div class="col-75">
+				<h3>Applications in Theoretical Physics</h3>
+			</div>
+			<div class="col-25">
+				<a class="file" href="./pdf/wm/Assignment_X.pdf">Assignment_X.pdf</a>
+			</div>
+			<p>
+				"Real life" problems from Theoretical Physics.
+			</p>
+		</li>	
+	</ol>
+
+	<hr>
+
+	<h2>Additional materials</h2>
+	<ul>
+	  <li><i>Stephen Wolfram</i>,
+		<a href="https://www.wolfram.com/language/elementary-introduction/2nd-ed/">An Elementary introduction to the Wolfram Language</a></li>
+	  <li><i>C. Hastings, K. Mischo, M. Morrison</i>,
+		<a class="file" href="./pdf/wm/Cliff Hastings, Kelvin Mischo, Michael Morrison - Hands-On Start to Wolfram Mathematica (2016).pdf">Hands-On Start to Wolfram Mathematica: And Programming with the Wolfram Language</a></li>
+	</ul>
+</body>
+</html>

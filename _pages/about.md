@@ -17,4 +17,4 @@ Prior to beginning my PhD track, I received Masters degree from Skolkovo Institu
 
 Future plans
 ------
-I'm planning to graduate in Summer 2025 and actively looking for job positions.
+I'm planning to graduate in Summer 2025 and actively looking for full-time job positions.

@@ -45,17 +45,13 @@ Work experience
 
 Skills
 ======
-* Qunatum Engineering
-  * Low-noise transport measuremenets
-  * Free-standing and fiber-coupled optics
-  * Cryogenics
-  * Low-temperature thermometry
-  * Photolithography
-  * Chemical Vapor Deposition
-  * Machining (lathe, mill)
+* Engineering
   * Laboratory electronics
   * Data acquisition and analysis
   * Design, development and debugging of experimental setups
+  * Digital signal processing
+  * Fiber/free-space optics
+  * Lithography
 * Condensed--matter and Solid State Theory
   * Superconductivity
   * Quantum Transport

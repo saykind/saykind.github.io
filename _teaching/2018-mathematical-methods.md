@@ -7,7 +7,7 @@ venue: "Moscow Institute of Physics and Technology, Chair of physics and technol
 date: 2018-01-1
 location: "Moscow, Russia"
 redirect_from:
-  - /mm
+  -/mm
   -/mm2018
 ---
 
