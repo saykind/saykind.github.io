@@ -1,5 +1,5 @@
 ---
-title: "Mathematical methods in Physics"
+title: "Mathematical methods in Physics (2018) [RU]"
 collection: teaching
 type: "Course"
 permalink: /mm18/
