@@ -10,6 +10,6 @@ redirect_from:
   - /mm2019
 ---
 
-[Course materials](mm19.html)
+[Course materials]({{ site.baseurl }}/teaching/mm19.html)
 
 
