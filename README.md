@@ -4,19 +4,19 @@ My personal website is using a [Github Pages template for academic websites](htt
 ### Instructions 
 
 To run it locally on MacOs install ruby (and add it to `$PATH`) then install node.js
-```
+```bash
 brew install ruby
 brew install node
 ```
 
 Using Ruby, install bundler and jekyll (add gem `EXECUTABLE DIRECTORY` to `$PATH`)
-```
+```bash
 gem install bundler
 gem install jekyll
 ```
 
 Start local server
-```
+```bash
 bundle install
 bundle exec jekyll serve
 ```
