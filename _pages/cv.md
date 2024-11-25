@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download PDF version](https://saykind.github.io/files/cv/DavidSaykinCV.pdf)
+[Download PDF version]({{ site.baseurl }}/files/cv/DavidSaykinCV.pdf)
 
 Education
 ======

@@ -36,7 +36,9 @@
           <i>{{ post.venue }}</i>
         </a>, 
         {{ post.date | date: "%B %d, %Y" }} 
-        <a herf=" {{ post.paperurl }} ">PDF</a>
+        <a href=" {{ post.paperpdf }} ">
+          PDF
+        </a>
       </p>
     {% endif %}
 

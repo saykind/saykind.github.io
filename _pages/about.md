@@ -13,7 +13,8 @@ I am a sixth-year PhD student in Physics at Stanford University in the group of 
 
 Prior to beginning my PhD track, I received a Masters degree from Skolkovo Institute of Science and Technology in Theoretical Physics (GPA: 3.7) and Bachelor’s degree from Moscow Institute of Physics and Technology in Applied Physics (GPA: 3.9). 
 
-[Curriculum vitae](https://saykind.github.io/cv/)
+[Curriculum vitae](https://saykind.github.io/cv/):
+[Download PDF]({{ site.baseurl }}/files/cv/DavidSaykinCV.pdf)
 
 Future plans
 ------
