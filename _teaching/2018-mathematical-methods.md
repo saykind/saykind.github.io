@@ -12,5 +12,3 @@ redirect_from:
 ---
 
 [Course materials]({{ site.baseurl }}/teaching/mm18.html)
-
-
