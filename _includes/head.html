@@ -19,3 +19,8 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<!-- Google analytics-->
+{% if site.analytics and jekyll.environment == 'production' %}
+{% include analytic.html %}
+{% endif %}
