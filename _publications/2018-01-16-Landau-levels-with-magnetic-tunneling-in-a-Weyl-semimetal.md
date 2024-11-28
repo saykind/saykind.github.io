@@ -1,6 +1,7 @@
 ---
 title: "Landau levels with magnetic tunneling in a Weyl semimetal and magnetoconductance of a ballistic p-n junction"
 collection: publications
+category: manuscripts
 permalink: /publication/2018-01-16-Landau-levels-with-magnetic-tunneling-in-a-Weyl-semimetal
 excerpt: 'We study the Landau levels of a Weyl semimetal with two adjacent Weyl nodes. We consider different orientations of magnetic field. '
 date: 2018-01-16

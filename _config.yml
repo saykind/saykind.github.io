@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Physics PhD"
   location         : "Stanford, CS"
-  employer         : ""
+  employer         : # example: "Apple, Inc."
   uri              : # URL
   email            : "saykind at itp dot ac dot ru" 
 

@@ -1,6 +1,7 @@
 ---
 title: "Interplay between magnetism and superconductivity in UTe2"
 collection: publications
+category: manuscripts
 permalink: /publication/2022-01-26-Interplay-between-magnetism-and-superconductivity-in-UTe2
 excerpt: 'We present an extensive study of the magnetic-field-trained Kerr effect in UTe2, which unveils a unique critical state of pinned vorticies.'
 date: 2022-01-26

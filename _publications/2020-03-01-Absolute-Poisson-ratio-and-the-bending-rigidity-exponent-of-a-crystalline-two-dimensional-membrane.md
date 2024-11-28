@@ -1,6 +1,7 @@
 ---
 title: "Absolute Poisson ratio and the bending rigidity exponent of a crystalline two-dimensional membrane"
 collection: publications
+category: manuscripts
 permalink: /publication/2020-03-01-Absolute-Poisson-ratio-and-the-bending-rigidity-exponent-of-a-crystalline-two-dimensional-membrane
 excerpt: 'We compute the absolute Poisson ratio and the bending rigidity exponent of a free-standing two-dimensional crystalline membrane embedded into a space of large dimensionality.'
 date: 2020-03-01

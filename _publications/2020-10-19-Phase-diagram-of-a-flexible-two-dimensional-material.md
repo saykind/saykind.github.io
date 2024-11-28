@@ -1,6 +1,7 @@
 ---
 title: "Phase diagram of a flexible two-dimensional material"
 collection: publications
+category: manuscripts
 permalink: /publication/2020-10-19-Phase-diagram-of-a-flexible-two-dimensional-material
 excerpt: 'We demonstrate that a sufficiently strong short-range disorder stabilizes ripples in 2D memebranes. '
 date: 2020-10-19
